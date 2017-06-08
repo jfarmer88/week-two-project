@@ -1,0 +1,352 @@
+.filmpic {
+    content: url('./images/filmclub.png');
+    background-color: #F5005B;
+    height: 104px;
+    width: 104px;
+    max-width: 30%;
+    padding: 14px;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+nav li {
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    padding-left: 0;
+}
+
+.home {
+    background-color: #00A5BF;
+}
+
+.cal {
+    background-color: #00B7D3;
+}
+
+.join {
+    background-color: #00D5E7;
+}
+
+a {
+    color: white;
+}
+
+h2 {
+    background-color: #0B1942;
+    color: white;
+}
+
+.upnext {
+    font-size: 6px;
+}
+
+.bottom {
+    background-color: #0B1942;
+    color: white;
+    padding: 0 15px;
+    padding-bottom: 30px;
+}
+
+.Rashomon {
+    background-color: #E2E2E2;
+    display: flex;
+    max-width: 100%;
+    padding: 18px;
+    padding-bottom: 30px;
+}
+
+.rashpic {
+    width: 100%;
+}
+
+h4 {
+    text-align: right;
+}
+
+.list {
+    text-align: center;
+}
+
+.info {
+    width: 100%;
+    padding-right: 10px;
+    color: #0B1942
+}
+
+body {
+    margin: 0;
+}
+
+.info p {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.info ul {
+    list-style-type: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.films {
+    display: flex;
+    background-color: #E2E2E2;
+    margin-top: 20px;
+    padding-top: 15px;
+    justify-content: initial;
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+
+.bike {
+    margin-left: 5%;
+}
+
+.metro {
+    margin-left: 5%;
+}
+
+.home {
+    padding: 12px 0;
+    list-style-type: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.cal {
+    padding: 12px 0;
+    list-style-type: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.join {
+    padding: 12px 0;
+    list-style-type: none;
+    font-family: 'PT Sans', sans-serif;
+    font-style: white;
+}
+
+.header {
+    margin: 0 0;
+}
+
+.film {
+    background-color: #bef4f7;
+    font-family: 'PT Sans', sans-serif;
+    font-style: #0B1942;
+    padding: 30px 0;
+}
+
+.films p {
+    font-family: 'PT Sans', sans-serif;
+    color: #0B1942;
+}
+
+.top p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.top h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    padding: 4px 0;
+}
+
+.top h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+body {
+    margin: 0 3%;
+}
+
+.bottom h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+p1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.rashpic img {
+    width: 157px;
+}
+
+.bikepic img {
+    width: 157px;
+}
+
+.nos img {
+    width: 157px;
+}
+
+.metropic img {
+    width: 157px;
+}
+
+.trainpic img {
+    width: 157px;
+}
+
+.upnext h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    background-color: #0B1942;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 545px) {
+    .header {
+        display: flex;
+        background-color: #bef4f7;
+    }
+    .header li {
+        padding: 0 25px;
+        display: flex;
+        align-items: center;
+    }
+    .top h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    body {
+        margin: 0;
+    }
+    .navbar {
+        height: 109px;
+    }
+    .filmpic {
+        width: 95px;
+        height: 89px;
+        padding: 10px;
+    }
+    .top {
+        padding: 0 20px;
+    }
+    .topinfo {
+        display: flex;
+    }
+    .takenotes {
+        margin: 0 30px;
+    }
+    .topinfo h2 {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    .rashpic {
+        width: 54%;
+        height: 100%;
+    }
+    .trainpic img {
+        max-width: 66%;
+    }
+    .bikepic img {
+        max-width: 70%;
+    }
+    .nos img {
+        max-width: 70%;
+    }
+    .metropic img {
+        max-width: 70%;
+    }
+    .films {
+        display: flex;
+        justify-content: initial;
+        padding-left: 15px;
+    }
+    .bike {
+        margin-left: -39px;
+    }
+    .nos {
+        margin-left: -36px;
+    }
+    .metro {
+        margin-left: -36px;
+    }
+    .films p {
+        width: 91%;
+        font-size: 14px;
+    }
+    .film {
+        text-align: right;
+    }
+    .info ul {
+        list-style-type: circle;
+    }
+    .rashpic img {
+        width: 227px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .topinfo h2 {
+        font-size: 25px;
+    }
+    .meetup {
+        width: 119%;
+    }
+    .filmpic {
+        width: 82px;
+    }
+    .Rashomon {
+        height: 215px;
+        padding-right: 37px;
+    }
+    .rashpic img {
+        width: 160px;
+    }
+    .bottom {
+        display: flex;
+    }
+    .films {
+        margin-top: 0;
+        margin-left: 44px;
+    }
+    .trainpic img {
+        max-width: 160px;
+    }
+    .bikepic img {
+        max-width: 160px;
+    }
+    .nos img {
+        max-width: 160px;
+    }
+    .metropic img {
+        max-width: 160px;
+    }
+    .train {
+        margin-right: 56px;
+    }
+    .info {
+        margin-left: 27px;
+    }
+    .nos {
+        margin-left: 0;
+    }
+    .metro {
+        margin-left: 17px;
+    }
+    .header li {
+        height: 109px;
+    }
+}

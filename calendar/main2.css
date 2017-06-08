@@ -1,0 +1,148 @@
+                                                                                    body {
+                                                                                    margin: 0;
+                                                                                }
+                                                                                
+                                                                                .filmpic {
+                                                                                    content: url('../images/filmclub.png');
+                                                                                    background-color: #F5005B;
+                                                                                    height: 112px;
+                                                                                    width: 96px;
+                                                                                    max-width: 30%;
+                                                                                    padding: 10px;
+                                                                                }
+                                                                                
+                                                                                h1 {
+                                                                                    font-family: Arial, Helvetica, sans-serif;
+                                                                                }
+                                                                                
+                                                                                .navbar {
+                                                                                    display: flex;
+                                                                                }
+                                                                                
+                                                                                nav li {
+                                                                                    text-align: center;
+                                                                                }
+                                                                                
+                                                                                ul {
+                                                                                    width: 100%;
+                                                                                    padding-left: 0;
+                                                                                    margin-top: 0;
+                                                                                }
+                                                                                
+                                                                                #home {
+                                                                                    background-color: #00A5BF;
+                                                                                    padding: 12px 0;
+                                                                                    list-style-type: none;
+                                                                                    font-family: 'PT Sans', sans-serif;
+                                                                                    font-style: white;
+                                                                                }
+                                                                                
+                                                                                #cal {
+                                                                                    background-color: #00B7D3;
+                                                                                    padding: 12px 0;
+                                                                                    list-style-type: none;
+                                                                                    font-family: 'PT Sans', sans-serif;
+                                                                                    font-style: white;
+                                                                                }
+                                                                                
+                                                                                #join {
+                                                                                    background-color: #00D5E7;
+                                                                                    padding: 12px 0;
+                                                                                    list-style-type: none;
+                                                                                    font-family: 'PT Sans', sans-serif;
+                                                                                    color: white;
+                                                                                }
+                                                                                
+                                                                                a {
+                                                                                    color: white;
+                                                                                }
+                                                                                
+                                                                                h1 {
+                                                                                    font-family: 'PT Sans', sans-serif;
+                                                                                    font-weight: normal;
+                                                                                    padding-left: 15px;
+                                                                                    font-style: #0B1942;
+                                                                                    margin-top: 15px;
+                                                                                }
+                                                                                
+                                                                                p {
+                                                                                    color: white;
+                                                                                    font-family: 'PT Sans', sans-serif;
+                                                                                    background-color: #0B1942;
+                                                                                    width: 40%;
+                                                                                    text-align: center;
+                                                                                    font-size: 13px;
+                                                                                    padding: 5px 0;
+                                                                                    margin-top: 0;
+                                                                                }
+                                                                                
+                                                                                .calendar {
+                                                                                    display: flex;
+                                                                                    flex-wrap: wrap;
+                                                                                }
+                                                                                
+                                                                                .calendar li {
+                                                                                    width: 13.87%;
+                                                                                    list-style-type: none;
+                                                                                    border: 1px solid #0B1942;
+                                                                                    padding-bottom: 7%;
+                                                                                }
+                                                                                
+                                                                                #June {
+                                                                                    background-color: #0B1942;
+                                                                                    color: white;
+                                                                                    margin-bottom: 0;
+                                                                                    padding: 10px 0;
+                                                                                    padding-left: 15px;
+                                                                                }
+                                                                                
+                                                                                #film {
+                                                                                    background-color: #bef4f7;
+                                                                                    font-family: 'PT Sans', sans-serif;
+                                                                                    padding: 30px 0;
+                                                                                }
+                                                                                
+                                                                                .footer {
+                                                                                    margin-bottom: 0;
+                                                                                }
+                                                                                
+                                                                                #date {
+                                                                                    background-color: #F5005B;
+                                                                                }
+                                                                                
+                                                                                @media screen and (min-width: 545px) {
+                                                                                    .header {
+                                                                                        display: flex;
+                                                                                        background-color: #bef4f7;
+                                                                                        margin-bottom: 0;
+                                                                                    }
+                                                                                    .header li {
+                                                                                        padding: 0 25px;
+                                                                                        display: flex;
+                                                                                        align-items: center;
+                                                                                    }
+                                                                                    #home {
+                                                                                        padding: 0 25px;
+                                                                                    }
+                                                                                    #cal {
+                                                                                        padding: 0 25px;
+                                                                                    }
+                                                                                    #join {
+                                                                                        padding: 0 25px;
+                                                                                    }
+                                                                                    .filmpic {
+                                                                                        height: 105px;
+                                                                                    }
+                                                                                    .footer {
+                                                                                        display: flex;
+                                                                                    }
+                                                                                    .footer li {
+                                                                                        display: flex;
+                                                                                        padding: 0px 25px;
+                                                                                        align-items: center;
+                                                                                        height: 109px;
+                                                                                    }
+                                                                                    #film {
+                                                                                        width: 100%;
+                                                                                        padding: 0;
+                                                                                    }
